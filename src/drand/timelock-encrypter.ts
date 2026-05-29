@@ -1,7 +1,7 @@
 import {sha256} from "@noble/hashes/sha256"
 import {Buffer} from "buffer"
 import * as ibe from "../crypto/ibe"
-import {ChainClient} from "drand-client"
+import {ChainClient} from "./drand-client"
 import {Stanza} from "../age/age-encrypt-decrypt"
 import {Ciphertext} from "../crypto/ibe"
 

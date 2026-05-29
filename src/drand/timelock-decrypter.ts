@@ -1,5 +1,5 @@
 import {Buffer} from "buffer"
-import {ChainClient, fetchBeacon, roundTime} from "drand-client"
+import {ChainClient, fetchBeacon, roundTime} from "./drand-client"
 import {Stanza} from "../age/age-encrypt-decrypt"
 import * as ibe from "../crypto/ibe"
 import {Ciphertext} from "../crypto/ibe"

@@ -6,7 +6,7 @@ import {
     roundAt,
     ChainInfo,
     defaultChainOptions
-} from "drand-client"
+} from "./drand/drand-client"
 import {Buffer} from "buffer"
 import {createTimelockEncrypter} from "./drand/timelock-encrypter"
 import {decryptAge, encryptAge} from "./age/age-encrypt-decrypt"

@@ -1,6 +1,5 @@
-import "isomorphic-fetch"
 import {mainnetClient, nonRFCMainnetClient, testnetClient, timelockDecrypt, timelockEncrypt} from "../../src"
-import {HttpCachingChain, HttpChainClient} from "drand-client"
+import {HttpCachingChain, HttpChainClient} from "../../src/drand/drand-client"
 
 describe("integration", () => {
     it("should be able to encrypt and decrypt with the testnet client", async () => {

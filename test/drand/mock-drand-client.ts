@@ -4,7 +4,7 @@ import {
     ChainInfo,
     ChainOptions,
     RandomnessBeacon
-} from "drand-client"
+} from "../../src/drand/drand-client"
 import {TESTNET_CHAIN_INFO} from "../../src/drand/defaults";
 
 class MockDrandClient implements ChainClient {
